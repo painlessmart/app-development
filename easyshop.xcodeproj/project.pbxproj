@@ -69,6 +69,7 @@
 		2CBF134322B1971E0087FD93 /* DataServiceLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF134222B1971E0087FD93 /* DataServiceLogin.swift */; };
 		2CBF134822B19B9F0087FD93 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF134722B19B9F0087FD93 /* LoginRequestModel.swift */; };
 		2CBF134A22B19E240087FD93 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF134922B19E240087FD93 /* LoginResponseModel.swift */; };
+		2CF0146622B5863100226FB7 /* MyProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0146522B5863100226FB7 /* MyProperties.swift */; };
 		462E6DB3136558F7083C4E69 /* Pods_easyshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFEC2A858141BF67488AE86 /* Pods_easyshopTests.framework */; };
 		68A3C38E3F134B8925D5AC52 /* Pods_easyshopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A19FF754247D2CFE92821 /* Pods_easyshopUITests.framework */; };
 		89DD5AA2110AC7EFA4886652 /* Pods_easyshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B042D86343E94F26530FF01 /* Pods_easyshop.framework */; };
@@ -162,6 +163,7 @@
 		2CBF134222B1971E0087FD93 /* DataServiceLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceLogin.swift; sourceTree = "<group>"; };
 		2CBF134722B19B9F0087FD93 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
 		2CBF134922B19E240087FD93 /* LoginResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		2CF0146522B5863100226FB7 /* MyProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProperties.swift; sourceTree = "<group>"; };
 		47EC8A96B08EC7F0466DEE3E /* Pods-easyshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easyshop/Pods-easyshop.debug.xcconfig"; sourceTree = "<group>"; };
 		5B042D86343E94F26530FF01 /* Pods_easyshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easyshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		619A19FF754247D2CFE92821 /* Pods_easyshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easyshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +226,7 @@
 		2C1D416722A59E01007DD535 /* easyshop */ = {
 			isa = PBXGroup;
 			children = (
+				2CF0146422B5861500226FB7 /* Properties */,
 				2CBF133F22B196CD0087FD93 /* Api */,
 				2CBF133A22B189740087FD93 /* Constant */,
 				2CBF133722B189030087FD93 /* Server */,
@@ -579,6 +582,14 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
+		2CF0146422B5861500226FB7 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0146522B5863100226FB7 /* MyProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
 		4F876C9B36416B1D53D42EEE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -868,6 +879,7 @@
 				2C6084A622B38EE000199016 /* M13CheckboxBounceController.swift in Sources */,
 				2C8AF62C22B02E89001D1115 /* XibToast.swift in Sources */,
 				2C8AF63D22B035BE001D1115 /* ClosureSleeve_UIButton.swift in Sources */,
+				2CF0146622B5863100226FB7 /* MyProperties.swift in Sources */,
 				2C8AF63322B031C3001D1115 /* AlertShowWithoutView.swift in Sources */,
 				2C6084BB22B39B4700199016 /* Validators.swift in Sources */,
 				2C37AC4122B29CAF00CFFDD6 /* PagerViewCustom.swift in Sources */,

@@ -13,12 +13,12 @@ public class LoginResponseModel: NSCoding {
   // MARK: Declaration for string constants to be used to decode and also serialize.
   private let kLoginResponseModelRefreshTokenKey: String = "refresh_token"
   private let kLoginResponseModelAccessTokenKey: String = "access_token"
-    private let kLoginResponseModelMessageKey: String = "message"
+    private let kLoginResponseModelUidKey: String = "uid"
 
   // MARK: Properties
   public var refreshToken: String?
   public var accessToken: String?
-    public var message : String?
+    public var uid : Int?
 
   // MARK: SwiftyJSON Initalizers
   /**
@@ -38,7 +38,7 @@ public class LoginResponseModel: NSCoding {
   public init(json: JSON) {
     refreshToken = json[kLoginResponseModelRefreshTokenKey].string
     accessToken = json[kLoginResponseModelAccessTokenKey].string
-    message = json[kLoginResponseModelMessageKey].string
+    uid = json[kLoginResponseModelUidKey].int
   }
 
   /**
@@ -49,7 +49,7 @@ public class LoginResponseModel: NSCoding {
     var dictionary: [String: Any] = [:]
     if let value = refreshToken { dictionary[kLoginResponseModelRefreshTokenKey] = value }
     if let value = accessToken { dictionary[kLoginResponseModelAccessTokenKey] = value }
-    if let value = message{ dictionary[kLoginResponseModelMessageKey] = value }
+    if let value = uid{ dictionary[kLoginResponseModelUidKey] = value }
     return dictionary
   }
 
@@ -57,13 +57,13 @@ public class LoginResponseModel: NSCoding {
   required public init(coder aDecoder: NSCoder) {
     self.refreshToken = aDecoder.decodeObject(forKey: kLoginResponseModelRefreshTokenKey) as? String
     self.accessToken = aDecoder.decodeObject(forKey: kLoginResponseModelAccessTokenKey) as? String
-    self.message = aDecoder.decodeObject(forKey: kLoginResponseModelMessageKey) as? String
+    self.uid = aDecoder.decodeObject(forKey: kLoginResponseModelUidKey) as? Int
   }
 
   public func encode(with aCoder: NSCoder) {
     aCoder.encode(refreshToken, forKey: kLoginResponseModelRefreshTokenKey)
     aCoder.encode(accessToken, forKey: kLoginResponseModelAccessTokenKey)
-    aCoder.encode(message , forKey: kLoginResponseModelMessageKey)
+    aCoder.encode(uid , forKey: kLoginResponseModelUidKey)
   }
 
 }

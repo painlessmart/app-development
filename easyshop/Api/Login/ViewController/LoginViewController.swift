@@ -47,6 +47,9 @@ class LoginViewController: UIViewController {
         
         viewModel.didFinishFetch = {
             if viewModel.error == nil{
+                MyProperties.sharedInstance.setToken(token: viewModel.model?.accessToken ?? "")
+                MyProperties.sharedInstance.setRefreshToken(refreshToken: viewModel.model?.refreshToken ?? "")
+                MyProperties.sharedInstance.setUserId(userId: viewModel.model?.uid ?? 0)
                 self.performSegue(withIdentifier: "showMain", sender: self)
             }
         }
