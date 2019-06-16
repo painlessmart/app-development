@@ -27,6 +27,7 @@
                                     <segment title="Sign in"/>
                                     <segment title="Sign up"/>
                                 </segments>
+                                <color key="tintColor" red="0.23137254900000001" green="0.33333333329999998" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="segmentView:" destination="ZlH-Na-8zI" eventType="valueChanged" id="GD0-W7-Tp3"/>
                                 </connections>

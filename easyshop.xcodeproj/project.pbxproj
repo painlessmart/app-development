@@ -12,6 +12,11 @@
 		2C1D417322A59E02007DD535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1D417122A59E02007DD535 /* LaunchScreen.storyboard */; };
 		2C1D417E22A59E02007DD535 /* easyshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D417D22A59E02007DD535 /* easyshopTests.swift */; };
 		2C1D418922A59E02007DD535 /* easyshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D418822A59E02007DD535 /* easyshopUITests.swift */; };
+		2C21088722B6DDE700936011 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21088622B6DDE700936011 /* InventoryViewController.swift */; };
+		2C21088C22B6E12700936011 /* CurrencyGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21088B22B6E12700936011 /* CurrencyGetModel.swift */; };
+		2C21088F22B6E20100936011 /* TradingSitesGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21088E22B6E20000936011 /* TradingSitesGetModel.swift */; };
+		2C21089222B6EA5C00936011 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21089122B6EA5C00936011 /* DashboardViewController.swift */; };
+		2C21089422B6EA7C00936011 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21089322B6EA7C00936011 /* ProfileViewController.swift */; };
 		2C37AC2E22B230CD00CFFDD6 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37AC2D22B230CD00CFFDD6 /* Extension+String.swift */; };
 		2C37AC3122B2326100CFFDD6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37AC3022B2326100CFFDD6 /* LoginViewModel.swift */; };
 		2C37AC3422B234AD00CFFDD6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37AC3322B234AD00CFFDD6 /* LoginViewController.swift */; };
@@ -51,6 +56,7 @@
 		2C6084C522B3ABAB00199016 /* RegisterResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6084C422B3ABAB00199016 /* RegisterResponseModel.swift */; };
 		2C6084C822B3AC3100199016 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6084C722B3AC3100199016 /* RegisterViewModel.swift */; };
 		2C6084CC22B3BEBC00199016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6084CB22B3BEBC00199016 /* Main.storyboard */; };
+		2C6A383022B6BCF7006898B4 /* AddInventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6A382F22B6BCF7006898B4 /* AddInventory.storyboard */; };
 		2C8AF62A22B02DDD001D1115 /* XibToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AF62922B02DDD001D1115 /* XibToast.xib */; };
 		2C8AF62C22B02E89001D1115 /* XibToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AF62B22B02E89001D1115 /* XibToast.swift */; };
 		2C8AF63022B02F70001D1115 /* Extension_UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AF62F22B02F70001D1115 /* Extension_UIWindow.swift */; };
@@ -63,6 +69,8 @@
 		2C9099C822A83D2A002C0176 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9099C722A83D2A002C0176 /* Localize.swift */; };
 		2C9099CA22A83E3C002C0176 /* EnglishString.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 2C9099C922A83E3C002C0176 /* EnglishString.stringsdict */; };
 		2C9099CE22A840CB002C0176 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9099CD22A840CB002C0176 /* Toast.swift */; };
+		2C9A143622B6971500626568 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A143522B6971500626568 /* Extension+UIView.swift */; };
+		2C9A143822B6A78C00626568 /* UITextFieldEasyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A143722B6A78C00626568 /* UITextFieldEasyShop.swift */; };
 		2CBF133922B189240087FD93 /* ConnectToServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133822B189240087FD93 /* ConnectToServer.swift */; };
 		2CBF133C22B189870087FD93 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133B22B189870087FD93 /* Constant.swift */; };
 		2CBF133E22B189FB0087FD93 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133D22B189FB0087FD93 /* Networking.swift */; };
@@ -106,6 +114,11 @@
 		2C1D418422A59E02007DD535 /* easyshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1D418822A59E02007DD535 /* easyshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyshopUITests.swift; sourceTree = "<group>"; };
 		2C1D418A22A59E02007DD535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C21088622B6DDE700936011 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		2C21088B22B6E12700936011 /* CurrencyGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyGetModel.swift; sourceTree = "<group>"; };
+		2C21088E22B6E20000936011 /* TradingSitesGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradingSitesGetModel.swift; sourceTree = "<group>"; };
+		2C21089122B6EA5C00936011 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		2C21089322B6EA7C00936011 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2C37AC2D22B230CD00CFFDD6 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		2C37AC3022B2326100CFFDD6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2C37AC3322B234AD00CFFDD6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +158,7 @@
 		2C6084C422B3ABAB00199016 /* RegisterResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponseModel.swift; sourceTree = "<group>"; };
 		2C6084C722B3AC3100199016 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		2C6084CB22B3BEBC00199016 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2C6A382F22B6BCF7006898B4 /* AddInventory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddInventory.storyboard; sourceTree = "<group>"; };
 		2C8AF62922B02DDD001D1115 /* XibToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibToast.xib; sourceTree = "<group>"; };
 		2C8AF62B22B02E89001D1115 /* XibToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibToast.swift; sourceTree = "<group>"; };
 		2C8AF62F22B02F70001D1115 /* Extension_UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIWindow.swift; sourceTree = "<group>"; };
@@ -157,6 +171,8 @@
 		2C9099C722A83D2A002C0176 /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		2C9099C922A83E3C002C0176 /* EnglishString.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = EnglishString.stringsdict; sourceTree = "<group>"; };
 		2C9099CD22A840CB002C0176 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2C9A143522B6971500626568 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		2C9A143722B6A78C00626568 /* UITextFieldEasyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldEasyShop.swift; sourceTree = "<group>"; };
 		2CBF133822B189240087FD93 /* ConnectToServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectToServer.swift; sourceTree = "<group>"; };
 		2CBF133B22B189870087FD93 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2CBF133D22B189FB0087FD93 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
@@ -258,11 +274,53 @@
 			path = easyshopUITests;
 			sourceTree = "<group>";
 		};
+		2C21088822B6E0F200936011 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C6A382F22B6BCF7006898B4 /* AddInventory.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C21088922B6E10000936011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C21089022B6E2CB00936011 /* Categories */,
+				2C21088D22B6E1F600936011 /* TradingSites */,
+				2C21088A22B6E10A00936011 /* Currency */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C21088A22B6E10A00936011 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				2C21088B22B6E12700936011 /* CurrencyGetModel.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		2C21088D22B6E1F600936011 /* TradingSites */ = {
+			isa = PBXGroup;
+			children = (
+				2C21088E22B6E20000936011 /* TradingSitesGetModel.swift */,
+			);
+			path = TradingSites;
+			sourceTree = "<group>";
+		};
+		2C21089022B6E2CB00936011 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		2C37AC2C22B2308F00CFFDD6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				2C37AC2D22B230CD00CFFDD6 /* Extension+String.swift */,
 				2C6084BF22B39CC000199016 /* UITextField+Extensions.swift */,
+				2C9A143522B6971500626568 /* Extension+UIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -434,8 +492,20 @@
 			isa = PBXGroup;
 			children = (
 				2C6084CB22B3BEBC00199016 /* Main.storyboard */,
+				2C21088622B6DDE700936011 /* InventoryViewController.swift */,
+				2C21089122B6EA5C00936011 /* DashboardViewController.swift */,
+				2C21089322B6EA7C00936011 /* ProfileViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C6A382E22B6BCE1006898B4 /* Add Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				2C21088922B6E10000936011 /* Models */,
+				2C21088822B6E0F200936011 /* ViewController */,
+			);
+			path = "Add Inventory";
 			sourceTree = "<group>";
 		};
 		2C8AF62D22B02F3C001D1115 /* Tools */ = {
@@ -495,6 +565,7 @@
 				2C8AF63122B031A8001D1115 /* Alert */,
 				2C8AF62D22B02F3C001D1115 /* Tools */,
 				2C9099CC22A840A3002C0176 /* Toast */,
+				2C9A143722B6A78C00626568 /* UITextFieldEasyShop.swift */,
 			);
 			path = Customs;
 			sourceTree = "<group>";
@@ -529,6 +600,7 @@
 		2CBF133F22B196CD0087FD93 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				2C6A382E22B6BCE1006898B4 /* Add Inventory */,
 				2C6084C922B3BEA100199016 /* MainPage */,
 				2C37AC4C22B2A97800CFFDD6 /* Base_Login_Register */,
 				2C37AC4622B2A69D00CFFDD6 /* Register */,
@@ -726,6 +798,7 @@
 				2C37AC3622B234D000CFFDD6 /* Login.storyboard in Resources */,
 				2C1D417022A59E02007DD535 /* Assets.xcassets in Resources */,
 				2C9099CA22A83E3C002C0176 /* EnglishString.stringsdict in Resources */,
+				2C6A383022B6BCF7006898B4 /* AddInventory.storyboard in Resources */,
 				2C8AF62A22B02DDD001D1115 /* XibToast.xib in Resources */,
 				2C6084CC22B3BEBC00199016 /* Main.storyboard in Resources */,
 				2C37AC4522B2A4F900CFFDD6 /* Base.storyboard in Resources */,
@@ -864,6 +937,7 @@
 				2C37AC3E22B28DAF00CFFDD6 /* EasyShopErrorModel.swift in Sources */,
 				2C37AC3922B2380300CFFDD6 /* Loading.swift in Sources */,
 				2C60849B22B38EC800199016 /* M13CheckboxController.swift in Sources */,
+				2C9A143822B6A78C00626568 /* UITextFieldEasyShop.swift in Sources */,
 				2C6084B722B38EF400199016 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
 				2C60849C22B38EC800199016 /* M13CheckboxAnimationGenerator.swift in Sources */,
 				2C37AC2E22B230CD00CFFDD6 /* Extension+String.swift in Sources */,
@@ -871,6 +945,8 @@
 				2C6084C022B39CC000199016 /* UITextField+Extensions.swift in Sources */,
 				2C37AC4322B2A46D00CFFDD6 /* BaseViewController.swift in Sources */,
 				2C6084C522B3ABAB00199016 /* RegisterResponseModel.swift in Sources */,
+				2C21089422B6EA7C00936011 /* ProfileViewController.swift in Sources */,
+				2C21088C22B6E12700936011 /* CurrencyGetModel.swift in Sources */,
 				2C6084C322B3A9FA00199016 /* DataServiceRegister.swift in Sources */,
 				2C6084A722B38EE000199016 /* M13CheckboxFillController.swift in Sources */,
 				2C6084B622B38EF400199016 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
@@ -888,6 +964,8 @@
 				2C6084AC22B38EE000199016 /* M13CheckboxFadeController.swift in Sources */,
 				2C6084B422B38EF400199016 /* M13CheckboxPathGenerator.swift in Sources */,
 				2CBF134A22B19E240087FD93 /* LoginResponseModel.swift in Sources */,
+				2C21088F22B6E20100936011 /* TradingSitesGetModel.swift in Sources */,
+				2C9A143622B6971500626568 /* Extension+UIView.swift in Sources */,
 				2CBF134822B19B9F0087FD93 /* LoginRequestModel.swift in Sources */,
 				2C37AC3422B234AD00CFFDD6 /* LoginViewController.swift in Sources */,
 				2C6084A822B38EE000199016 /* M13CheckboxStrokeController.swift in Sources */,
@@ -904,11 +982,13 @@
 				2C6084A922B38EE000199016 /* M13CheckboxDotController.swift in Sources */,
 				2C9099CE22A840CB002C0176 /* Toast.swift in Sources */,
 				2C6084C822B3AC3100199016 /* RegisterViewModel.swift in Sources */,
+				2C21089222B6EA5C00936011 /* DashboardViewController.swift in Sources */,
 				2CBF133922B189240087FD93 /* ConnectToServer.swift in Sources */,
 				2C1D416922A59E01007DD535 /* AppDelegate.swift in Sources */,
 				2C6084AB22B38EE000199016 /* M13CheckboxFlatController.swift in Sources */,
 				2C8AF63B22B033DF001D1115 /* Tools.swift in Sources */,
 				2CBF133C22B189870087FD93 /* Constant.swift in Sources */,
+				2C21088722B6DDE700936011 /* InventoryViewController.swift in Sources */,
 				2C37AC3122B2326100CFFDD6 /* LoginViewModel.swift in Sources */,
 				2CBF133E22B189FB0087FD93 /* Networking.swift in Sources */,
 			);

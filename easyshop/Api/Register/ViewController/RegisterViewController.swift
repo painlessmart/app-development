@@ -11,14 +11,14 @@ import Alamofire
 
 class RegisterViewController: UIViewController {
 
-    @IBOutlet weak var txtName: UITextField!
-    @IBOutlet weak var txtLastName: UITextField!
-    @IBOutlet weak var txtEmail: UITextField!
-    @IBOutlet weak var txtPhone: UITextField!
-    @IBOutlet weak var txtPassword: UITextField!
-    @IBOutlet weak var txtConfirmPassword: UITextField!
-    @IBOutlet weak var txtBrandName: UITextField!
-    @IBOutlet weak var txtBusinessName: UITextField!
+    @IBOutlet weak var txtName: UITextFieldEasyShop!
+    @IBOutlet weak var txtLastName: UITextFieldEasyShop!
+    @IBOutlet weak var txtEmail: UITextFieldEasyShop!
+    @IBOutlet weak var txtPhone: UITextFieldEasyShop!
+    @IBOutlet weak var txtPassword: UITextFieldEasyShop!
+    @IBOutlet weak var txtConfirmPassword: UITextFieldEasyShop!
+    @IBOutlet weak var txtBrandName: UITextFieldEasyShop!
+    @IBOutlet weak var txtBusinessName: UITextFieldEasyShop!
     @IBOutlet weak var chbTerms: M13Checkbox!
     var delegateChangeSegment : ChangeSegmentIndexProtocol?
     override func viewDidLoad() {
@@ -33,14 +33,14 @@ class RegisterViewController: UIViewController {
     
     func validate() {
         do {
-            let firstName = try txtName.validatedText(validationType: ValidatorType.requiredField(field: txtName.placeholder ?? ""))
-            let lastName = try txtLastName.validatedText(validationType: ValidatorType.requiredField(field: txtLastName.placeholder ?? ""))
+            let firstName = try txtName.validatedText(validationType: ValidatorType.requiredField(field: txtName.placeHolder ))
+            let lastName = try txtLastName.validatedText(validationType: ValidatorType.requiredField(field: txtLastName.placeHolder ))
             let email = try txtEmail.validatedText(validationType: ValidatorType.email)
-            let phone = try txtPhone.validatedText(validationType: ValidatorType.requiredField(field: txtPhone.placeholder ?? ""))
+            let phone = try txtPhone.validatedText(validationType: ValidatorType.requiredField(field: txtPhone.placeHolder ))
             let password = try txtPassword.validatedText(validationType: ValidatorType.password)
             let _ = try txtConfirmPassword.validatedText(validationType: .rePassword(password: txtPassword.text ?? ""))
-            let brandName = try txtBrandName.validatedText(validationType: ValidatorType.requiredField(field: txtBrandName.placeholder ?? ""))
-            let businessName = try txtBusinessName.validatedText(validationType: .requiredField(field: txtBusinessName.placeholder ?? ""))
+            let brandName = try txtBrandName.validatedText(validationType: ValidatorType.requiredField(field: txtBrandName.placeHolder ))
+            let businessName = try txtBusinessName.validatedText(validationType: .requiredField(field: txtBusinessName.placeHolder ))
             let data = RegisterData(firstName: firstName, lastName: lastName, eMail: email, phone: phone, password: password, brandName: brandName, businessName: businessName)
             if chbTerms.checkState == .checked {
                 self.register(registerData: data)

@@ -13,14 +13,20 @@
         <!--Dashboard-->
         <scene sceneID="XQf-DB-u7Y">
             <objects>
-                <viewController id="oR9-UU-eGz" sceneMemberID="viewController">
+                <viewController id="oR9-UU-eGz" customClass="DashboardViewController" customModule="easyshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U7o-b3-7Ty">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oWY-Ru-YGF"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Dashboard" id="wi2-GK-72A"/>
+                    <navigationItem key="navigationItem" title="Dashboard" id="wi2-GK-72A">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="SRJ-UY-96L">
+                            <connections>
+                                <action selector="btnLogOut:" destination="oR9-UU-eGz" id="8jB-fo-OPu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGw-ot-nAg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -29,18 +35,37 @@
         <!--Inventory-->
         <scene sceneID="z69-ZJ-Q1k">
             <objects>
-                <viewController id="GZ3-5j-NQX" sceneMemberID="viewController">
+                <viewController id="GZ3-5j-NQX" customClass="InventoryViewController" customModule="easyshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7FI-dm-z96">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NOe-QY-aPV"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Inventory" id="WAd-JK-DH4"/>
+                    <navigationItem key="navigationItem" title="Inventory" id="WAd-JK-DH4">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="stop" id="6gT-RD-nRg">
+                            <connections>
+                                <action selector="btnLogOut:" destination="GZ3-5j-NQX" id="pcS-vV-9fC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="pUA-fU-sLf">
+                            <connections>
+                                <segue destination="cv6-cy-hnQ" kind="show" id="sht-aP-v8k"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U8V-ia-mQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2102.898550724638" y="276.5625"/>
+        </scene>
+        <!--AddInventory-->
+        <scene sceneID="22y-pM-Sdu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AddInventory" id="cv6-cy-hnQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8w-E7-dN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2714" y="349"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="PRo-SH-Jne">
@@ -48,6 +73,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mop-rN-PWS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="55t-a3-YJp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -64,14 +90,20 @@
         <!--Profile-->
         <scene sceneID="L2o-dl-oaR">
             <objects>
-                <viewController id="dng-Y6-Lid" sceneMemberID="viewController">
+                <viewController id="dng-Y6-Lid" customClass="ProfileViewController" customModule="easyshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rK0-UK-aih">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rco-m1-9wW"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Profile" id="cq5-Dj-GTQ"/>
+                    <navigationItem key="navigationItem" title="Profile" id="cq5-Dj-GTQ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="XBB-y8-kDW">
+                            <connections>
+                                <action selector="btnLogOut:" destination="dng-Y6-Lid" id="6zd-7z-9eH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cia-Tq-Xa8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
