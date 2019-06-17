@@ -13,6 +13,7 @@ pod 'BiometricAuthentication'
 pod 'SwiftMessages'
 pod 'NVActivityIndicatorView'
 pod 'IQKeyboardManager'
+pod 'ObjectMapper'
   target 'easyshopTests' do
     inherit! :search_paths
     # Pods for testing

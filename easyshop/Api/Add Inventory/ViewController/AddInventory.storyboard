@@ -13,7 +13,7 @@
         <!--Add Item-->
         <scene sceneID="mb5-uN-rEp">
             <objects>
-                <viewController title="Add Item" id="icA-Yh-3cK" sceneMemberID="viewController">
+                <viewController title="Add Item" id="icA-Yh-3cK" customClass="AddInventoryViewController" customModule="easyshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KR5-5z-A0s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

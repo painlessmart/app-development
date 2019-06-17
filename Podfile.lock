@@ -5,6 +5,7 @@ PODS:
   - NVActivityIndicatorView (4.4.0):
     - NVActivityIndicatorView/Presenter (= 4.4.0)
   - NVActivityIndicatorView/Presenter (4.4.0)
+  - ObjectMapper (3.4.1)
   - Realm (3.11.2):
     - Realm/Headers (= 3.11.2)
   - Realm/Headers (3.11.2)
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - BiometricAuthentication
   - IQKeyboardManager
   - NVActivityIndicatorView
+  - ObjectMapper
   - RealmSwift
   - SwiftMessages
   - SwiftyJSON (~> 4.0)
@@ -30,6 +32,7 @@ SPEC REPOS:
     - BiometricAuthentication
     - IQKeyboardManager
     - NVActivityIndicatorView
+    - ObjectMapper
     - Realm
     - RealmSwift
     - SwiftMessages
@@ -40,11 +43,12 @@ SPEC CHECKSUMS:
   BiometricAuthentication: 6928c01583bc707f92c11349f190d5ae052217d3
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
   Realm: 864477d028db77f7c5a0cba64a4892ad53db128a
   RealmSwift: 12b8262fc08020b47de4fd88eb3d5c9425b34ec7
   SwiftMessages: 42ed7b6e1f2f1ead9ee667dc61a0ae87e4f49570
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 1f7316530d12c808ff8a0cea53b5917ea42836f2
+PODFILE CHECKSUM: bf4b6f816c0d3e947674ed709868e5de7e9edc5e
 
 COCOAPODS: 1.5.3

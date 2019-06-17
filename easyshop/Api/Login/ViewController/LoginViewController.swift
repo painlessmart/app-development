@@ -14,6 +14,11 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        #if DEBUG
+            txtUsername.text = "aliali3684@gmail.com"
+            txtPassword.text = "Ali@218802@Ali"
+        #endif
 
     }
     

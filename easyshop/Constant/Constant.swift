@@ -19,3 +19,7 @@ let Server_Url = "http://139.162.39.19:8000/api/v1"
 
 let Login_Api_Address = "/auth/login"
 let Register_Api_Address = "/auth/register"
+let Inventory_Items_Api_Address = "/inventory/items/"
+let Currency_Api_Address = "/basis/currencies/"
+let Trading_Sites_Api_Address = "/basis/trading_sites/"
+let Categories_Api_Address = "/basis/categories/"
