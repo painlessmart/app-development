@@ -72,6 +72,16 @@
 		2C846B5A22B83D9C00CA2FD7 /* TradingSitesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C846B5922B83D9C00CA2FD7 /* TradingSitesViewModel.swift */; };
 		2C846B5E22B83EF700CA2FD7 /* DataServiceCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C846B5D22B83EF700CA2FD7 /* DataServiceCategories.swift */; };
 		2C846B6022B83FA000CA2FD7 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C846B5F22B83FA000CA2FD7 /* CategoriesViewModel.swift */; };
+		2C887A0F22B94E3300E18BB7 /* AddInventoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A0E22B94E3300E18BB7 /* AddInventoryModel.swift */; };
+		2C887A1122B94E6500E18BB7 /* DataServiceAddInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1022B94E6500E18BB7 /* DataServiceAddInventory.swift */; };
+		2C887A1622B94EF600E18BB7 /* AddInventoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1522B94EF600E18BB7 /* AddInventoryRequest.swift */; };
+		2C887A1822B950BD00E18BB7 /* AddInventoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1722B950BD00E18BB7 /* AddInventoryViewModel.swift */; };
+		2C887A1A22B9595C00E18BB7 /* Extention+UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1922B9595C00E18BB7 /* Extention+UIRefreshControl.swift */; };
+		2C887A1D22B95AF900E18BB7 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1C22B95AF900E18BB7 /* LoadingButton.swift */; };
+		2C887A2022B965C400E18BB7 /* DataServiceItemDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A1F22B965C400E18BB7 /* DataServiceItemDelete.swift */; };
+		2C887A2322B9672500E18BB7 /* InventoryDeleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A2222B9672500E18BB7 /* InventoryDeleteViewModel.swift */; };
+		2C887A2822B970A500E18BB7 /* DataServiceInventoryUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A2722B970A500E18BB7 /* DataServiceInventoryUpdate.swift */; };
+		2C887A2B22B9716C00E18BB7 /* InventoryItemUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C887A2A22B9716C00E18BB7 /* InventoryItemUpdateViewModel.swift */; };
 		2C8AF62A22B02DDD001D1115 /* XibToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AF62922B02DDD001D1115 /* XibToast.xib */; };
 		2C8AF62C22B02E89001D1115 /* XibToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AF62B22B02E89001D1115 /* XibToast.swift */; };
 		2C8AF63022B02F70001D1115 /* Extension_UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AF62F22B02F70001D1115 /* Extension_UIWindow.swift */; };
@@ -86,6 +96,7 @@
 		2C9099CE22A840CB002C0176 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9099CD22A840CB002C0176 /* Toast.swift */; };
 		2C9A143622B6971500626568 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A143522B6971500626568 /* Extension+UIView.swift */; };
 		2C9A143822B6A78C00626568 /* UITextFieldEasyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A143722B6A78C00626568 /* UITextFieldEasyShop.swift */; };
+		2CA1FC5E22B939FA002F04A6 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1FC5D22B939FA002F04A6 /* Device.swift */; };
 		2CBF133922B189240087FD93 /* ConnectToServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133822B189240087FD93 /* ConnectToServer.swift */; };
 		2CBF133C22B189870087FD93 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133B22B189870087FD93 /* Constant.swift */; };
 		2CBF133E22B189FB0087FD93 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF133D22B189FB0087FD93 /* Networking.swift */; };
@@ -189,6 +200,16 @@
 		2C846B5922B83D9C00CA2FD7 /* TradingSitesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingSitesViewModel.swift; sourceTree = "<group>"; };
 		2C846B5D22B83EF700CA2FD7 /* DataServiceCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceCategories.swift; sourceTree = "<group>"; };
 		2C846B5F22B83FA000CA2FD7 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		2C887A0E22B94E3300E18BB7 /* AddInventoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInventoryModel.swift; sourceTree = "<group>"; };
+		2C887A1022B94E6500E18BB7 /* DataServiceAddInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceAddInventory.swift; sourceTree = "<group>"; };
+		2C887A1522B94EF600E18BB7 /* AddInventoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInventoryRequest.swift; sourceTree = "<group>"; };
+		2C887A1722B950BD00E18BB7 /* AddInventoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInventoryViewModel.swift; sourceTree = "<group>"; };
+		2C887A1922B9595C00E18BB7 /* Extention+UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+UIRefreshControl.swift"; sourceTree = "<group>"; };
+		2C887A1C22B95AF900E18BB7 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		2C887A1F22B965C400E18BB7 /* DataServiceItemDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceItemDelete.swift; sourceTree = "<group>"; };
+		2C887A2222B9672500E18BB7 /* InventoryDeleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryDeleteViewModel.swift; sourceTree = "<group>"; };
+		2C887A2722B970A500E18BB7 /* DataServiceInventoryUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceInventoryUpdate.swift; sourceTree = "<group>"; };
+		2C887A2A22B9716C00E18BB7 /* InventoryItemUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemUpdateViewModel.swift; sourceTree = "<group>"; };
 		2C8AF62922B02DDD001D1115 /* XibToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibToast.xib; sourceTree = "<group>"; };
 		2C8AF62B22B02E89001D1115 /* XibToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibToast.swift; sourceTree = "<group>"; };
 		2C8AF62F22B02F70001D1115 /* Extension_UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIWindow.swift; sourceTree = "<group>"; };
@@ -203,6 +224,7 @@
 		2C9099CD22A840CB002C0176 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		2C9A143522B6971500626568 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		2C9A143722B6A78C00626568 /* UITextFieldEasyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldEasyShop.swift; sourceTree = "<group>"; };
+		2CA1FC5D22B939FA002F04A6 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		2CBF133822B189240087FD93 /* ConnectToServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectToServer.swift; sourceTree = "<group>"; };
 		2CBF133B22B189870087FD93 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2CBF133D22B189FB0087FD93 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
@@ -316,6 +338,7 @@
 		2C21088922B6E10000936011 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A0D22B94D9100E18BB7 /* Add Inventory */,
 				2C21089022B6E2CB00936011 /* Categories */,
 				2C21088D22B6E1F600936011 /* TradingSites */,
 				2C21088A22B6E10A00936011 /* Currency */,
@@ -354,6 +377,7 @@
 				2C37AC2D22B230CD00CFFDD6 /* Extension+String.swift */,
 				2C6084BF22B39CC000199016 /* UITextField+Extensions.swift */,
 				2C9A143522B6971500626568 /* Extension+UIView.swift */,
+				2C887A1922B9595C00E18BB7 /* Extention+UIRefreshControl.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -599,6 +623,8 @@
 		2C846B3622B7FB7500CA2FD7 /* Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A2422B96F0A00E18BB7 /* Update */,
+				2C887A1E22B965AB00E18BB7 /* Delete */,
 				2C846B3722B7FBB800CA2FD7 /* DataServiceInventory.swift */,
 			);
 			path = Inventory;
@@ -615,6 +641,8 @@
 		2C846B3C22B7FF2C00CA2FD7 /* Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A2922B9714700E18BB7 /* Update */,
+				2C887A2122B9670E00E18BB7 /* Delete */,
 				2C846B3D22B7FF4300CA2FD7 /* InventoryViewModel.swift */,
 			);
 			path = Inventory;
@@ -623,6 +651,7 @@
 		2C846B4B22B83A1800CA2FD7 /* DataService */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A0C22B94D7E00E18BB7 /* Add Inventory */,
 				2C846B5B22B83EC900CA2FD7 /* Categories */,
 				2C846B5522B83CF400CA2FD7 /* TradingSites */,
 				2C846B4F22B83ACD00CA2FD7 /* Currency */,
@@ -633,6 +662,7 @@
 		2C846B4E22B83ABF00CA2FD7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A0B22B94D6900E18BB7 /* Add Inventory */,
 				2C846B5C22B83ECD00CA2FD7 /* Categories */,
 				2C846B5822B83D8B00CA2FD7 /* TradingSites */,
 				2C846B5022B83AD600CA2FD7 /* Currency */,
@@ -688,6 +718,87 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		2C887A0B22B94D6900E18BB7 /* Add Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1722B950BD00E18BB7 /* AddInventoryViewModel.swift */,
+			);
+			path = "Add Inventory";
+			sourceTree = "<group>";
+		};
+		2C887A0C22B94D7E00E18BB7 /* Add Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1022B94E6500E18BB7 /* DataServiceAddInventory.swift */,
+			);
+			path = "Add Inventory";
+			sourceTree = "<group>";
+		};
+		2C887A0D22B94D9100E18BB7 /* Add Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1422B94EE300E18BB7 /* Request */,
+				2C887A1322B94ED700E18BB7 /* Response */,
+			);
+			path = "Add Inventory";
+			sourceTree = "<group>";
+		};
+		2C887A1322B94ED700E18BB7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A0E22B94E3300E18BB7 /* AddInventoryModel.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		2C887A1422B94EE300E18BB7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1522B94EF600E18BB7 /* AddInventoryRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2C887A1B22B95AEB00E18BB7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1C22B95AF900E18BB7 /* LoadingButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		2C887A1E22B965AB00E18BB7 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A1F22B965C400E18BB7 /* DataServiceItemDelete.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		2C887A2122B9670E00E18BB7 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A2222B9672500E18BB7 /* InventoryDeleteViewModel.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		2C887A2422B96F0A00E18BB7 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A2722B970A500E18BB7 /* DataServiceInventoryUpdate.swift */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
+		2C887A2922B9714700E18BB7 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				2C887A2A22B9716C00E18BB7 /* InventoryItemUpdateViewModel.swift */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
 		2C8AF62D22B02F3C001D1115 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,6 +839,7 @@
 		2C9099C622A83D0C002C0176 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2CA1FC5C22B939E9002F04A6 /* Enum */,
 				2C6084B922B39B3900199016 /* Validator */,
 				2C37AC2C22B2308F00CFFDD6 /* Extension */,
 				2C9099CB22A8406A002C0176 /* Customs */,
@@ -739,6 +851,7 @@
 		2C9099CB22A8406A002C0176 /* Customs */ = {
 			isa = PBXGroup;
 			children = (
+				2C887A1B22B95AEB00E18BB7 /* Button */,
 				2C60848D22B3834500199016 /* Check Box */,
 				2C37AC3F22B29CA500CFFDD6 /* PaggerView */,
 				2C37AC3722B237F600CFFDD6 /* Loading */,
@@ -758,6 +871,14 @@
 				2C8AF62B22B02E89001D1115 /* XibToast.swift */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		2CA1FC5C22B939E9002F04A6 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				2CA1FC5D22B939FA002F04A6 /* Device.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		2CBF133722B189030087FD93 /* Server */ = {
@@ -1060,10 +1181,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JJFloatingActionButton/JJFloatingActionButton.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -1074,10 +1193,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiometricAuthentication.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJFloatingActionButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -1115,13 +1232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C887A1D22B95AF900E18BB7 /* LoadingButton.swift in Sources */,
 				2C9099C822A83D2A002C0176 /* Localize.swift in Sources */,
 				2C8AF63022B02F70001D1115 /* Extension_UIWindow.swift in Sources */,
 				2C37AC3E22B28DAF00CFFDD6 /* EasyShopErrorModel.swift in Sources */,
 				2C37AC3922B2380300CFFDD6 /* Loading.swift in Sources */,
+				2C887A2022B965C400E18BB7 /* DataServiceItemDelete.swift in Sources */,
+				2C887A1A22B9595C00E18BB7 /* Extention+UIRefreshControl.swift in Sources */,
 				2C60849B22B38EC800199016 /* M13CheckboxController.swift in Sources */,
 				2C846B2D22B7F9DF00CA2FD7 /* CategoriesGetModel.swift in Sources */,
 				2C9A143822B6A78C00626568 /* UITextFieldEasyShop.swift in Sources */,
+				2C887A2822B970A500E18BB7 /* DataServiceInventoryUpdate.swift in Sources */,
 				2C846B4622B80A4600CA2FD7 /* InventoryItemsGetModel.swift in Sources */,
 				2C846B6022B83FA000CA2FD7 /* CategoriesViewModel.swift in Sources */,
 				2C6084B722B38EF400199016 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
@@ -1136,15 +1257,18 @@
 				2C21089422B6EA7C00936011 /* ProfileViewController.swift in Sources */,
 				2C21088C22B6E12700936011 /* CurrencyGetModel.swift in Sources */,
 				2C6084C322B3A9FA00199016 /* DataServiceRegister.swift in Sources */,
+				2C887A1122B94E6500E18BB7 /* DataServiceAddInventory.swift in Sources */,
 				2C6084A722B38EE000199016 /* M13CheckboxFillController.swift in Sources */,
 				2C6084B622B38EF400199016 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
 				2C60849922B38EC800199016 /* DefaultValues.swift in Sources */,
+				2CA1FC5E22B939FA002F04A6 /* Device.swift in Sources */,
 				2C6084AA22B38EE000199016 /* M13CheckboxSpiralController.swift in Sources */,
 				2C846B5422B83B9F00CA2FD7 /* AddInventoryViewController.swift in Sources */,
 				2C6084A622B38EE000199016 /* M13CheckboxBounceController.swift in Sources */,
 				2C8AF62C22B02E89001D1115 /* XibToast.swift in Sources */,
 				2C8AF63D22B035BE001D1115 /* ClosureSleeve_UIButton.swift in Sources */,
 				2CF0146622B5863100226FB7 /* MyProperties.swift in Sources */,
+				2C887A1622B94EF600E18BB7 /* AddInventoryRequest.swift in Sources */,
 				2C8AF63322B031C3001D1115 /* AlertShowWithoutView.swift in Sources */,
 				2C6084BB22B39B4700199016 /* Validators.swift in Sources */,
 				2C37AC4122B29CAF00CFFDD6 /* PagerViewCustom.swift in Sources */,
@@ -1153,9 +1277,11 @@
 				2C6084AC22B38EE000199016 /* M13CheckboxFadeController.swift in Sources */,
 				2C6084B422B38EF400199016 /* M13CheckboxPathGenerator.swift in Sources */,
 				2CBF134A22B19E240087FD93 /* LoginResponseModel.swift in Sources */,
+				2C887A1822B950BD00E18BB7 /* AddInventoryViewModel.swift in Sources */,
 				2C21088F22B6E20100936011 /* TradingSitesGetModel.swift in Sources */,
 				2C9A143622B6971500626568 /* Extension+UIView.swift in Sources */,
 				2CBF134822B19B9F0087FD93 /* LoginRequestModel.swift in Sources */,
+				2C887A0F22B94E3300E18BB7 /* AddInventoryModel.swift in Sources */,
 				2C37AC3422B234AD00CFFDD6 /* LoginViewController.swift in Sources */,
 				2C6084A822B38EE000199016 /* M13CheckboxStrokeController.swift in Sources */,
 				2C6084BE22B39BE400199016 /* RegisterData.swift in Sources */,
@@ -1170,7 +1296,9 @@
 				2C60849722B38EC800199016 /* M13CheckboxGestureRecognizer.swift in Sources */,
 				2C846B4D22B83A3800CA2FD7 /* DataServiceCurrency.swift in Sources */,
 				2C846B4822B826C400CA2FD7 /* InventoryCell.swift in Sources */,
+				2C887A2322B9672500E18BB7 /* InventoryDeleteViewModel.swift in Sources */,
 				2C6084B522B38EF400199016 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				2C887A2B22B9716C00E18BB7 /* InventoryItemUpdateViewModel.swift in Sources */,
 				2C6084A922B38EE000199016 /* M13CheckboxDotController.swift in Sources */,
 				2C846B3822B7FBB800CA2FD7 /* DataServiceInventory.swift in Sources */,
 				2C846B5E22B83EF700CA2FD7 /* DataServiceCategories.swift in Sources */,

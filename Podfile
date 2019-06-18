@@ -8,12 +8,13 @@ target 'easyshop' do
   # Pods for easyshop
 pod 'Alamofire'
 pod 'SwiftyJSON', '~> 4.0'
-pod 'RealmSwift'
+#pod 'RealmSwift'
 pod 'BiometricAuthentication'
 pod 'SwiftMessages'
 pod 'NVActivityIndicatorView'
 pod 'IQKeyboardManager'
-pod 'ObjectMapper'
+#pod 'ObjectMapper'
+pod 'JJFloatingActionButton'
   target 'easyshopTests' do
     inherit! :search_paths
     # Pods for testing

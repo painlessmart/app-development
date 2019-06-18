@@ -17,10 +17,10 @@ class DataServiceAddInventory: ConnectToServer {
     
     
     // MARK: Service
-    func add(  , completion : @escaping ( (model : AddInventoryModel?  , error: Error?) )->()) {
-        
+    func add( request : AddInventoryRequest , completion : @escaping ( (model : AddInventoryModel?  , error: Error?) )->()) {
+        let params = request.getParameters()
         do{
-            let request = try "".encodeGet("\(Server_Url)\(Categories_Api_Address)", with: nil)
+            let request = try "".encode("\(Server_Url)\(Inventory_Items_Api_Address)" , with: params)
             super.connect(request: request) { (model , err ) in
                 if err != nil{
                     completion((model: nil , error: err))

@@ -38,16 +38,128 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "easyshop/Api/MainPage/ViewController/Inventory/InventoryViewController.swift"
-            timestampString = "582500563.435191"
+            timestampString = "582582046.497376"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "easyshop/Api/Add Inventory/ViewController/AddInventoryViewController.swift"
+            timestampString = "582582046.497606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "showPickerView(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "easyshop/Api/Add Inventory/ViewController/AddInventoryViewController.swift"
+            timestampString = "582582046.497714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "showPickerView(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "easyshop/Api/Add Inventory/ViewController/AddInventoryViewController.swift"
+            timestampString = "582582046.497789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "showPickerView(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "easyshop/Api/MainPage/DataService/Inventory/Update/DataServiceInventoryUpdate.swift"
+            timestampString = "582582046.497865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "update(id:requestData:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "easyshop.DataServiceInventoryUpdate.update(id: Swift.Int, requestData: easyshop.AddInventoryRequest, completion: ((model: Swift.Optional&lt;Swift.String&gt;, error: Swift.Optional&lt;Swift.Error&gt;)) -&gt; ()) -&gt; ()"
+                  moduleName = "easyshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alighanavati/Downloads/easyshop-master/easyshop/Api/MainPage/DataService/Inventory/Update/DataServiceInventoryUpdate.swift"
+                  timestampString = "582581735.218194"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "3285">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in easyshop.DataServiceInventoryUpdate.update(id: Swift.Int, requestData: easyshop.AddInventoryRequest, completion: ((model: Swift.Optional&lt;Swift.String&gt;, error: Swift.Optional&lt;Swift.Error&gt;)) -&gt; ()) -&gt; ()"
+                  moduleName = "easyshop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alighanavati/Downloads/easyshop-master/easyshop/Api/MainPage/DataService/Inventory/Update/DataServiceInventoryUpdate.swift"
+                  timestampString = "582581735.220716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "147">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "easyshop/Api/MainPage/DataService/Inventory/Update/DataServiceInventoryUpdate.swift"
+            timestampString = "582582046.497946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "update(id:requestData:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -11,6 +11,7 @@ import Alamofire
 class LoginViewController: UIViewController {
     @IBOutlet weak var txtUsername: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var btnLogin: LoadingButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class LoginViewController: UIViewController {
 
     }
     
-    @IBAction func btnLogin(_ sender: Any) {
+    @IBAction func btnLogin(_ sender: LoadingButton) {
         self.login(work_email: txtUsername.text ?? "" , password: txtPassword.text ?? "" )
     }
     
@@ -34,7 +35,7 @@ class LoginViewController: UIViewController {
         
         viewModel.Login(work_email: work_email, password: password)
         viewModel.updateLoadingStatus = {
-            let _ = viewModel.isLoading ? Loading.Start() : Loading.Stop()
+            let _ = viewModel.isLoading ? self.btnLogin.showLoading() : self.btnLogin.hideLoading()
         }
         viewModel.showAlertClosure = {
             if viewModel.error != nil{

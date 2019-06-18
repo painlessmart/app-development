@@ -30,7 +30,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Password"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVC-Ws-uyF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVC-Ws-uyF" customClass="LoadingButton" customModule="easyshop" customModuleProvider="target">
                                 <rect key="frame" x="30" y="365" width="354" height="40"/>
                                 <color key="backgroundColor" red="0.23137254900000001" green="0.33333333329999998" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -135,6 +135,7 @@
                         <viewLayoutGuide key="safeArea" id="ogU-UY-aUw"/>
                     </view>
                     <connections>
+                        <outlet property="btnLogin" destination="HVC-Ws-uyF" id="ku6-uc-GHb"/>
                         <outlet property="txtPassword" destination="fKm-I2-pRS" id="Fyq-3A-QB3"/>
                         <outlet property="txtUsername" destination="x9z-su-Qb5" id="hBh-8w-mKF"/>
                         <segue destination="uN1-dL-7oo" kind="show" identifier="showMain" id="zvZ-c6-H1r"/>
